@@ -1,6 +1,9 @@
+import 'package:arcgis_maps/arcgis_maps.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  ArcGISEnvironment.apiKey = "";
+
   runApp(const MyApp());
 }
 
@@ -19,8 +22,9 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         ),
-        body: Center(
-          child: Text("It works"),
+        body: ArcGISMapView(
+          controllerProvider: () => ArcGISMapView.createController()
+            ..arcGISMap = ArcGISMap.withBasemapStyle(BasemapStyle.arcGISImagery),
         ),
       )
     );
