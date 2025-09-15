@@ -13,6 +13,7 @@ arcgis_maps_core
 .svn/
 .swiftpm/
 migrate_working_dir/
+.env
 
 # IntelliJ related
 *.iml

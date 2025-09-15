@@ -13,6 +13,7 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   arcgis_maps: 200.7.0+4560
+  flutter_dotenv: ^5.2.1
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +23,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - .env
