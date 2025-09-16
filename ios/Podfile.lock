@@ -1,9 +1,9 @@
 PODS:
-  - arcgis_maps (200.7.0.4560):
+  - arcgis_maps (200.8.0.4672):
     - arcgis_maps_ffi
     - Flutter
     - Runtimecore
-  - arcgis_maps_ffi (200.7.0.4560)
+  - arcgis_maps_ffi (200.8.0.4672)
   - device_info_plus (0.0.1):
     - Flutter
   - Flutter (1.0.0)
@@ -21,7 +21,7 @@ PODS:
   - path_provider_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
-  - Runtimecore (200.7.0.4560)
+  - Runtimecore (200.8.0.4672)
   - sqlite3 (3.50.4):
     - sqlite3/common (= 3.50.4)
   - sqlite3/common (3.50.4)
@@ -98,8 +98,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
-  arcgis_maps: e511e0abf54f3755fce74424cc30df54139e34d7
-  arcgis_maps_ffi: 5ab17599582c9c6993ad0801fe257f180566f5b0
+  arcgis_maps: 86d69f109019940711cec95b8973d6a7ea187660
+  arcgis_maps_ffi: 98eb575862caa20e3bc9a43446b3bb285d099af8
   device_info_plus: bf2e3232933866d73fe290f2942f2156cdd10342
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   flutter_secure_storage: d33dac7ae2ea08509be337e775f6b59f1ff45f12
@@ -108,11 +108,11 @@ SPEC CHECKSUMS:
   haptic_feedback: 8cb3ee0cb6b797946c2b0df9c99ebc8f7ed79c71
   package_info_plus: c0502532a26c7662a62a356cebe2692ec5fe4ec4
   path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
-  Runtimecore: f1bfaf7a5874c49e7b73c2b6bd646362bffbdd4f
+  Runtimecore: f5d13eebc9dfcadf5fd1c987e004e40ca5c63699
   sqlite3: 73513155ec6979715d3904ef53a8d68892d4032b
   sqlite3_flutter_libs: 86f82662868ee26ff3451f73cac9c5fc2a1f57fa
   url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
 
-PODFILE CHECKSUM: 025e24fca79d811d645310b58175dc090d26aebe
+PODFILE CHECKSUM: a9390b30c70f869d3bae8577d32f8fc53acf7b6e
 
 COCOAPODS: 1.16.2
