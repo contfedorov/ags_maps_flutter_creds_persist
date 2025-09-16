@@ -7,6 +7,9 @@ import 'token_provider.dart';
 Future<void> main() async {
   await dotenv.load(fileName: '.env');
 
+  ArcGISEnvironment.authenticationManager.arcGISCredentialStore =
+  await ArcGISCredentialStore.initPersistentStore();
+
   runApp(MyApp());
 }
 
